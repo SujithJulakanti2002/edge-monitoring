@@ -1,0 +1,16 @@
+{
+    "without_formatting":{
+    "CLOUD_CONNECTED": {
+        "metric": "CLOUD_STATUS",   
+        "value": 1
+        },
+    "CLOUD_DISCONNECTED": {
+        "metric": "CLOUD_STATUS",   
+        "value": 0
+        }
+    },
+    "need_to_format":{
+    "Published message to topic modules/OPCUA_1/messages/events/type=timeSeries":"",
+    "Temetry Read call executed in 5 milliseconds": ""
+}
+}

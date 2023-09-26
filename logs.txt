@@ -1,0 +1,19 @@
+OPCUA
+Platform.EdgePlatformInterface: Published message to topic modules/OPCUA_1/messages/events/type=timeSeries: [{"objectId": "xz","model":"x","timestamp":"x","variable":"x","value":"XX","quality":1}]
+CLOUD DISCONNECTED
+2023-09-21 06:08:43,336 Core.AdapterBase: Telemetry Read Call executed in 6 milliseconds
+Connection id "0HMS6M1FTJRJ7", Request id "0HMS6M1FTJRJ7:0000000D": An unhandled exception was thrown by the application.
+
+alerts
+MongoDB.Driver.MongoCommandException: Command find failed: Error=16500, RetryAfterMs=70, Details='Response status code does not indicate success: TooManyRequests (429); Substatus: 3200; Act
+2023-08-31 09:45:32,251  6 DPSClientHelper.DpsClient ERROR:  Authenticate Object reference not set to an instance of an object.
+2023-08-31 09:45:32,251  7 EdgebaseCore.GenixProxy INFO:  Dps Authenticate response is null
+
+GenixRouter
+2023-09-25 09:35:32,477 INFO GenixRouter.GenixRouter:  MQTT Broker connection success ...
+2023-09-26 06:21:40,811 INFO GenixRouter.GenixRouter:  Number of Message Received to intopic3 topic: 0
+2023-09-26 06:21:40,812 INFO GenixRouter.GenixRouter:  
+2023-09-26 06:21:40,812 INFO GenixRouter.GenixRouter:  Number of Message Published to outtopic3 topic: 0
+
+Stream Processor
+2023-09-26 06:25:27,819 INFO success: streamprocessor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
